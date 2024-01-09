@@ -70,5 +70,11 @@
 }
 
 .submitButton {
+    background-color:green;
+    
+}
 
+#displayArea {
+    background-color: grey ;
+    color: black;
 }

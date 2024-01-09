@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Bot</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="mainPage.js"></script>
+    <script src="script.js"></script>
 
 </head>
 <body>
-<H1 class="heading"> Chat Bot</H1>
+<H1 class="heading"> Code Bot</H1>
 <div class="welcome_popup" id="welcome_popup-1">
     <div class="overlay"></div>
     <div class="content">
@@ -22,14 +22,20 @@
         </div>
     </div>
     
-    <button class="button" onclick="togglePopUp('welcome_popup-1')">Welcome</button>
+    <button class="button" onclick="togglePopUp('welcome_popup-1')">Welcome click here!</button>
 
     <br>
 
-    <div>
-        <h3>Enter your question here:</h3>
-        <input type="text" id="textbox" placeholder="Question" >
-        <button class="submitButton" onclick="getUserInput()">Submit</button>
-    </div>
+    <form id="userInputForm">
+        <label for="userInput">Enter your question here:</label>
+        <input type="text" id="userInput" placeholder="Question" >
+        <button class="submitButton" onclick="addUserInput()">Submit</button>
+    </form>
+
+    <!-- Display area for the eßntered text -->
+<div id="displayArea">
+    
+</div>
+
 </body>
 </html>
