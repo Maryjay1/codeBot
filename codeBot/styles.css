@@ -71,10 +71,33 @@
 
 .submitButton {
     background-color:green;
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight:bold;
     
 }
 
 #displayArea {
-    background-color: grey ;
+    background-color: rgb(198, 187, 187) ;
     color: black;
+    border-radius: 15px;
+}
+
+#userInputForm {
+    
+    padding: 50px;
+    position: relative;
+}
+
+.titletext{
+    padding: 15px;
+    font-weight:bold;
+
+}
+
+#userInput {
+    padding: 10px;
+    margin: 0.1em;
 }
