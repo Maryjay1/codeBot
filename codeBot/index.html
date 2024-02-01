@@ -27,14 +27,22 @@
     <br>
 
     <form id="userInputForm">
-        <label for="userInput">Enter your question here:</label>
-        <input type="text" id="userInput" placeholder="Question" >
-        <button class="submitButton" onclick="addUserInput()">Submit</button>
-    </form>
+        <div class="titletext">
+            <label>Enter your question here:</label>
 
-    <!-- Display area for the eßntered text -->
+        </div>
+        <div>
+            <textarea type="text" id="userInput" maxlength="1000" placeholder="Question" ></textarea>
+
+        </div>
+        
+        <button class="submitButton" type="button" onclick="addUserInput()">
+        Submit</button>
+        </form>
+
+    <!-- Display area for the entered text -->
 <div id="displayArea">
-    
+
 </div>
 
 </body>

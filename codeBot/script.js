@@ -40,8 +40,8 @@ function displayUserInputs() {
     userInputArray.forEach(function (item) {
         let inputElement = document.createElement('p');
         let responseElement = document.createElement('p');
-        inputElement.textContent = 'User Input: ' + item.input; 
-        responseElement.textContent = 'Response: ' + item.response;
+        inputElement.textContent = 'User: ' + item.input; 
+        responseElement.textContent = 'Code Bot: ' + item.response;
         displayAreaElement.appendChild(inputElement);
         displayAreaElement.appendChild(responseElement);
 
